@@ -1,0 +1,24 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.banner-cinema {
+  background-image: url(denise-jans-OaVJQZ-nFD0-unsplash.jpg);
+}
+
+.banner h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}

@@ -1,0 +1,133 @@
+.movie-card img {
+  width: 150px;
+}
+
+.movie-card p {
+  opacity: .5;
+}
+
+.movie-card {
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.movie-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 900px) {
+  .movie-card {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .movie-cards {
+    justify-content: space-around;
+  }
+}
+
+.category-card img {
+  width: 150px;
+}
+
+.category-card p {
+  opacity: .5;
+}
+
+.category-card {
+  // background-image: url(jeremy-yap-J39X2xX_8CQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.category-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 900px) {
+  .category-card {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .category-cards {
+    justify-content: space-around;
+  }
+}
+
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media(max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
